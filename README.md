@@ -95,7 +95,7 @@ A production-ready real-time city dashboard that provides live updates on weathe
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -142,7 +142,7 @@ Open browser: `http://localhost:5173`
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 citypulse/
@@ -179,7 +179,7 @@ citypulse/
 
 ---
 
-## 🔧 Technology Stack
+## Technology Stack
 
 ### Frontend
 
@@ -220,7 +220,7 @@ citypulse/
 
 ---
 
-## 🗄️ Database Schema
+## Database Schema
 
 ### Users Table
 
@@ -281,7 +281,7 @@ CREATE TABLE activity_logs (
 
 ---
 
-## 🔐 Authentication Flow
+## Authentication Flow
 
 ```
 1. User clicks "Sign in with Google"
@@ -303,7 +303,7 @@ CREATE TABLE activity_logs (
 
 ---
 
-## 🔄 WebSocket Real-Time Flow
+## WebSocket Real-Time Flow
 
 ```
 1. Client selects "London"
@@ -327,7 +327,7 @@ CREATE TABLE activity_logs (
 
 ---
 
-## 📊 API Endpoints
+## API Endpoints
 
 ### Authentication
 
@@ -354,7 +354,7 @@ CREATE TABLE activity_logs (
 
 ---
 
-## 🎨 UI Components
+## UI Components
 
 ### Dashboard Cards
 
@@ -375,7 +375,7 @@ CREATE TABLE activity_logs (
 
 ---
 
-## 🔔 Notifications
+## Notifications
 
 ### Browser Notifications
 
@@ -401,7 +401,7 @@ if (Notification.permission === "granted") {
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ### Backend Tests
 
@@ -433,7 +433,7 @@ curl -H "Authorization: Bearer YOUR_FIREBASE_TOKEN" \
 
 ---
 
-## 🚀 Deployment
+## Deployment
 
 See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed instructions.
 
@@ -465,16 +465,16 @@ pscale connect citypulse main
 
 ---
 
-## 🔒 Security Features
+## Security Features
 
-- ✅ Firebase JWT verification on all protected routes
-- ✅ Rate limiting (100 requests per 15 minutes)
-- ✅ CORS protection (whitelist frontend domain)
-- ✅ Helmet security headers
-- ✅ SQL injection protection (Sequelize ORM)
-- ✅ XSS protection (React auto-escaping)
-- ✅ Environment variables for secrets
-- ✅ HTTPS enforced in production
+-  Firebase JWT verification on all protected routes
+-  Rate limiting (100 requests per 15 minutes)
+-  CORS protection (whitelist frontend domain)
+-  Helmet security headers
+-  SQL injection protection (Sequelize ORM)
+-  XSS protection (React auto-escaping)
+-  Environment variables for secrets
+-  HTTPS enforced in production
 
 ---
 
@@ -496,7 +496,7 @@ pscale connect citypulse main
 
 ---
 
-## 📈 Scaling Strategy
+## Scaling Strategy
 
 ### Current (MVP)
 
@@ -522,7 +522,7 @@ pscale connect citypulse main
 
 ---
 
-## 🐛 Known Issues & Limitations
+##  Known Issues & Limitations
 
 ### Free Tier Limitations
 
@@ -544,7 +544,7 @@ pscale connect citypulse main
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -563,13 +563,13 @@ Contributions are welcome! Please follow these steps:
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **OpenWeatherMap** for weather data
 - **NewsAPI** for news headlines
@@ -582,16 +582,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📞 Support
-
-- 📧 Email: support@citypulse.com
-- 💬 Discord: [Join our server](https://discord.gg/citypulse)
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/citypulse/issues)
-- 📖 Docs: [Full Documentation](https://docs.citypulse.com)
-
----
-
-## 🗺️ Roadmap
+##  Roadmap
 
 ### v1.1 (Next Release)
 
@@ -627,6 +618,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Built with ❤️ by developers, for everyone who cares about their city.**
+**Built with by developers, for everyone who cares about their city.**
 
-⭐ Star this repo if you found it helpful!
+ Star this repo if you found it helpful!
