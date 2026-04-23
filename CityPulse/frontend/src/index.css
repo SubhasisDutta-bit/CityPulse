@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: radial-gradient(circle at top, #1e293b 0%, #020617 100%);
+  color: #f8fafc;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Custom Intro Animations */
+@keyframes revolve {
+  0% { transform: rotate(0deg) scale(1); filter: drop-shadow(0 0 15px rgba(250, 204, 21, 0.5)); }
+  50% { transform: rotate(180deg) scale(1.1); filter: drop-shadow(0 0 30px rgba(250, 204, 21, 0.8)); }
+  100% { transform: rotate(360deg) scale(1); filter: drop-shadow(0 0 15px rgba(250, 204, 21, 0.5)); }
+}
+
+@keyframes blastOut {
+  0% { transform: scale(1.1); opacity: 1; filter: drop-shadow(0 0 40px rgba(250, 204, 21, 1)) brightness(1); }
+  30% { transform: scale(0.6); opacity: 1; filter: drop-shadow(0 0 10px rgba(250, 204, 21, 1)) brightness(2); }
+  100% { transform: scale(25); opacity: 0; filter: drop-shadow(0 0 100px rgba(250, 204, 21, 0)) brightness(3); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-revolve {
+  animation: revolve 3s linear infinite;
+}
+
+.animate-blast {
+  animation: blastOut 0.8s cubic-bezier(0.8, 0, 0.2, 1) forwards;
+}
+
+.animate-fade-in {
+  animation: fadeIn 1s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}

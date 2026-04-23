@@ -1,0 +1,51 @@
+# Node modules and dependencies
+node_modules/
+package-lock.json
+yarn.lock
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# IDE and editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing and logs
+.nyc_output/
+logs/
+*.log
+
+# Temporary files
+.cache/
+.temp/
+.tmp/
+
+# Archive and setup files
+*.tar.gz
+*.zip
+*.rar
+EXTRACTION_GUIDE.md
+DOWNLOAD_CHECKLIST.md
+assemble.sh
+START_HERE.md
